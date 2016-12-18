@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b07c541d9b3082758877ce88c04c0c7d",
-    "content-hash": "53c91fddbe316de103398230dc13fe2d",
+    "hash": "b637b7dbc137288f9df514178cabbf90",
+    "content-hash": "89dddd172c5ca0a96e4abd017709f75f",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -256,16 +256,16 @@
         },
         {
             "name": "neopel/cakephp-plugin-animate",
-            "version": "dev-master",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neopel/AnimatePlugin.git",
-                "reference": "0f6d3b293814fdbd7d74ce402a308e841f60fa7c"
+                "reference": "4ce9e3a1a2837935d3865263fb9f6aff7ecba266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neopel/AnimatePlugin/zipball/0f6d3b293814fdbd7d74ce402a308e841f60fa7c",
-                "reference": "0f6d3b293814fdbd7d74ce402a308e841f60fa7c",
+                "url": "https://api.github.com/repos/neopel/AnimatePlugin/zipball/4ce9e3a1a2837935d3865263fb9f6aff7ecba266",
+                "reference": "4ce9e3a1a2837935d3865263fb9f6aff7ecba266",
                 "shasum": ""
             },
             "require": {
@@ -296,7 +296,7 @@
             ],
             "description": "CakePHP plugin animate",
             "homepage": "https://github.com/neopel/AnimatePlugin",
-            "time": "2016-12-18 11:19:45"
+            "time": "2016-12-18 13:18:56"
         },
         {
             "name": "psr/http-message",
@@ -3695,7 +3695,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "neopel/cakephp-plugin-animate": 20,
         "psy/psysh": 0
     },
     "prefer-stable": false,
