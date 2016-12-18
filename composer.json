@@ -4,6 +4,7 @@
   "homepage": "https://github.com/neopel/NotyPlugin",
   "type": "project",
   "license": "GNU",
+  "version": "0.0.1",
   "require": {
     "php": ">=5.5.9",
     "cakephp/cakephp": "~3.3"
@@ -25,6 +26,8 @@
       "NotyPlugin\\": "src"
     }
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+  "scripts": {
+    "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+  },
+  "minimum-stability": "stable"
 }
