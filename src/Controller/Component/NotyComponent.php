@@ -1,8 +1,8 @@
 <?php
 
-namespace Noty\Controller\Component;
+namespace NotyPlugin\Controller\Component;
 
-use Animate\Controller\Component\AnimateComponent;
+use AnimatePlugin\Controller\Component\AnimateComponent;
 use Cake\Controller\Component\FlashComponent;
 
 /**

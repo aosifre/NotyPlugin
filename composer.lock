@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ebb10c3ae9d4f95fad0bef3adcccd3b7",
-    "content-hash": "a14e67ab40ab564b35020dac6855e249",
+    "hash": "b07c541d9b3082758877ce88c04c0c7d",
+    "content-hash": "53c91fddbe316de103398230dc13fe2d",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -253,6 +253,50 @@
                 "time"
             ],
             "time": "2016-12-09 06:28:06"
+        },
+        {
+            "name": "neopel/cakephp-plugin-animate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neopel/AnimatePlugin.git",
+                "reference": "0f6d3b293814fdbd7d74ce402a308e841f60fa7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neopel/AnimatePlugin/zipball/0f6d3b293814fdbd7d74ce402a308e841f60fa7c",
+                "reference": "0f6d3b293814fdbd7d74ce402a308e841f60fa7c",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.3",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "cakephp/bake": "~1.1",
+                "friendsofphp/php-cs-fixer": "~1",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "phpro/grumphp": "^0.10.1",
+                "phpunit/phpunit": "~4.8",
+                "psy/psysh": "@stable"
+            },
+            "suggest": {
+                "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP.",
+                "phpunit/phpunit": "Allows automated tests to be run without system-wide install."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AnimatePlugin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "description": "CakePHP plugin animate",
+            "homepage": "https://github.com/neopel/AnimatePlugin",
+            "time": "2016-12-18 11:19:45"
         },
         {
             "name": "psr/http-message",
@@ -3651,6 +3695,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "neopel/cakephp-plugin-animate": 20,
         "psy/psysh": 0
     },
     "prefer-stable": false,
