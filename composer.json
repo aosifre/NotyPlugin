@@ -1,0 +1,45 @@
+{
+    "name": "aosweb/plugin/noty",
+    "description": "CakePHP plugin noty",
+    "homepage": "https://github.com/neopel/NotyPlugin",
+    "type": "project",
+    "license": "GNU",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": "~3.3",
+        "mobiledetect/mobiledetectlib": "2.*",
+        "cakephp/migrations": "~1.0",
+        "cakephp/plugin-installer": "*",
+        "cakephp/debug_kit": "^3.3",
+        "twitter/bootstrap": "^3.3",
+        "components/jquery": "^3.1",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "require-dev": {
+        "psy/psysh": "@stable",
+        "cakephp/bake": "~1.1",
+        "phpunit/phpunit": "~4.8",
+        "phpro/grumphp": "^0.10.1",
+        "jakub-onderka/php-parallel-lint": "^0.9.2",
+        "friendsofphp/php-cs-fixer": "~1"
+    },
+    "suggest": {
+        "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
+        "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
+    },
+    "autoload": {
+        "psr-4": {
+            "NotyPlugin\\": "src",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
