@@ -8,7 +8,7 @@ use Cake\Controller\Component\FlashComponent;
 /**
  * Class NotyComponent
  *
- * @package Noty\Controller\Component
+ * @package NotyPlugin\Controller\Component
  *
  * @method void success(string $message, array $options = []) Set a message using "success" element
  * @method void error(string $message, array $options = []) Set a message using "error" element
@@ -58,8 +58,6 @@ class NotyComponent extends FlashComponent
      */
     public function __call($name, $args)
     {
-        $name = 'default';
-
         $args[1]['plugin'] = 'NotyPlugin';
         $args[1]['params']['animation'] = [
             'open'  => AnimateComponent::CLASS_BOUNCE_IN_RIGHT,
@@ -68,6 +66,6 @@ class NotyComponent extends FlashComponent
         $args[1]['params']['type'] = $name;
         $args[1]['params']['layout'] = self::LAYOUT_BOTTOM_RIGHT;
 
-        parent::__call($name, $args);
+        parent::__call('default', $args);
     }
 }
