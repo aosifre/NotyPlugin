@@ -2,9 +2,9 @@
   "name": "neopel/cakephp-plugin-noty",
   "description": "CakePHP plugin noty",
   "homepage": "https://github.com/neopel/NotyPlugin",
-  "type": "library",
+  "type": "cakephp-plugin",
   "license": "GNU",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "require": {
     "php": ">=5.5.9",
     "cakephp/cakephp": "~3.3",
