@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b637b7dbc137288f9df514178cabbf90",
-    "content-hash": "89dddd172c5ca0a96e4abd017709f75f",
+    "hash": "f5b0e6d467d36d33944493f0ee1187a4",
+    "content-hash": "80ce87e7b5a644af2fed42aee6abc0af",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -256,16 +256,16 @@
         },
         {
             "name": "neopel/cakephp-plugin-animate",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neopel/AnimatePlugin.git",
-                "reference": "4ce9e3a1a2837935d3865263fb9f6aff7ecba266"
+                "reference": "a84f5cdeefe6a3a1164f057ab8b0e0a46f5cf4cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neopel/AnimatePlugin/zipball/4ce9e3a1a2837935d3865263fb9f6aff7ecba266",
-                "reference": "4ce9e3a1a2837935d3865263fb9f6aff7ecba266",
+                "url": "https://api.github.com/repos/neopel/AnimatePlugin/zipball/a84f5cdeefe6a3a1164f057ab8b0e0a46f5cf4cf",
+                "reference": "a84f5cdeefe6a3a1164f057ab8b0e0a46f5cf4cf",
                 "shasum": ""
             },
             "require": {
@@ -284,7 +284,7 @@
                 "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP.",
                 "phpunit/phpunit": "Allows automated tests to be run without system-wide install."
             },
-            "type": "library",
+            "type": "cakephp-plugin",
             "autoload": {
                 "psr-4": {
                     "AnimatePlugin\\": "src"
@@ -296,7 +296,7 @@
             ],
             "description": "CakePHP plugin animate",
             "homepage": "https://github.com/neopel/AnimatePlugin",
-            "time": "2016-12-18 13:18:56"
+            "time": "2016-12-19 19:59:50"
         },
         {
             "name": "psr/http-message",
