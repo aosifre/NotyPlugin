@@ -45,10 +45,11 @@ class NotyComponent extends FlashComponent
      * @var array
      */
     protected $_defaultConfig = [
-        'key'     => 'flash',
-        'element' => 'default',
-        'params'  => [],
-        'clear'   => false
+        'key'       => 'flash',
+        'element'   => 'default',
+        'params'    => [],
+        'clear'     => false,
+        'duplicate' => true,
     ];
 
     /**
@@ -59,7 +60,7 @@ class NotyComponent extends FlashComponent
     {
         $name = 'default';
 
-        $args[1]['plugin'] = 'Noty';
+        $args[1]['plugin'] = 'NotyPlugin';
         $args[1]['params']['animation'] = [
             'open'  => AnimateComponent::CLASS_BOUNCE_IN_RIGHT,
             'close' => AnimateComponent::CLASS_BOUNCE_OUT_RIGHT,

@@ -4,11 +4,11 @@
   "homepage": "https://github.com/neopel/NotyPlugin",
   "type": "cakephp-plugin",
   "license": "GNU",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "require": {
     "php": ">=5.5.9",
     "cakephp/cakephp": "~3.3",
-    "neopel/cakephp-plugin-animate": "~0"
+    "neopel/cakephp-plugin-animate": "~1"
   },
   "require-dev": {
     "psy/psysh": "@stable",
